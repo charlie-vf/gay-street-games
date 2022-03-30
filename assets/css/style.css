@@ -99,6 +99,7 @@ header a {
     letter-spacing: 2px;
     text-align: center;
     color: #c381dd;
+    border-radius: 15px;
 
     width: 250px;
     height: 125px;
@@ -108,9 +109,100 @@ header a {
     background-color: rgb(202, 146, 224, 0.5);
 
     top: 70px;
-    left: 65px;
+    left: 50px;
 
     position: absolute;
+}
+
+#scroll-arrow {
+    font-family: inherit;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #c381dd;
+    line-height: 50px;
+    border-radius: 15px;
+
+    width: 100px;
+    height: 150px;
+
+    padding: 10px 5px;
+
+    background-color: rgb(202, 146, 224, 0.3);
+
+    bottom: 70px;
+    right: 50px;
+
+    position: absolute;
+}
+
+/* about eso wheel */
+
+#eso-explained {
+    height: 750px;
+}
+
+#eso-explained h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 175%;
+    padding: 25px 0;
+    letter-spacing: 2px;
+}
+
+#center-explained {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#center-circle {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(69, 30, 131, 0.1);
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#center-circle-bg {
+    background: url('../images/the-prophet.jpeg');
+    height: 100%;
+    border-radius: 50%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* events section */
+
+#events {
+    background: url('../images/orsinium.jpeg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#events div {
+    color: #4e0bb9;
+    background-color: rgba(233, 207, 243, 0.3);
+    width: 20%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    border: 3px solid black;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+#events h2 {
+    color: #6738b3;
+    text-decoration: underline;
 }
 
 /* footer */
