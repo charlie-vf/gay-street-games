@@ -8,10 +8,52 @@
 
 body {
     font-family: Oxanium, sans-serif;
+    color: #ca92e0;
+    background-color: black;
 }
 
 h1, h2 {
     font-family: 'Major Mono', 'Reggae One' monospace, sans-serif;
+    color: #6738b3;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+#gay {
+    text-align: center;
+    padding-top: 15px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#menu {
+    font-size: 150%;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+#menu li {
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    background-color: #6738b3;
+}
+
+.active {
+    border-bottom: 1px solid #6738b3;
 }
 
 /* hero image */
@@ -27,7 +69,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/the-reach-blue-lights.jpeg) no-repeat center center;
+    background: url(../images/eso1.jpeg) no-repeat center center;
 
 
     /* animates zoom on loading page */
@@ -39,9 +81,10 @@ h1, h2 {
 /* level of zoom for hero image */
 @keyframes hero-zoom {
     from {
-        transform: scale(1.15);
+        transform: scale(1.11);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1);
     }
 }
+
