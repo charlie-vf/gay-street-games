@@ -18,11 +18,15 @@ h1, h2 {
     font-family: 'Major Mono', 'Reggae One' monospace, sans-serif;
     color: #6738b3;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 h1 {
-    text-transform: uppercase;
     font-size: 250%;
+}
+
+h3, h4 {
+    text-transform: uppercase;
 }
 
 #gay {
@@ -188,8 +192,11 @@ header a {
 
 #eso-explained h2 {
     text-align: center;
-    text-transform: uppercase;
     margin: 15px 0;
+}
+
+#eso-explained h3 {
+    color: #6738b3;
 }
 
 #left-eso {
@@ -234,9 +241,6 @@ hr {
 #center-circle {
     width: 350px;
     height: 350px;
-    border-style: solid;
-    border-color: rgb(69, 30, 131, 0.1);
-    border-width: 3px;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -249,11 +253,6 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
-/* text over image on hover */
-
-
 
 /* hover animation for eso-content divs */
 .grow p{
@@ -281,7 +280,7 @@ hr {
 
 #events div {
     color: #4e0bb9;
-    background-color: rgba(233, 207, 243, 0.3);
+    background-color: rgba(233, 207, 243, 0.4);
     width: 20%;
     height: 150px;
     float: left;
@@ -298,6 +297,8 @@ hr {
     text-decoration: underline;
 }
 
+/* meet the team section */
+
 #team {
     background: url('../images/the-reach-blue-lights.jpeg');
     width: 100%;
@@ -313,7 +314,6 @@ hr {
     padding: 15px;
     z-index: 1;
     background: black;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -347,6 +347,29 @@ hr {
     width: 100%;
     margin: 6px 0;
     text-align: center;
+}
+
+/* hover animation for eso-content divs */
+.grow h4{
+    transition: 1s;
+    }
+    
+.grow h4:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.15);
+    transition: 1s;
+    }
+
+#our-goals {
+    width: 100%;
+    height: 250px;
+    margin: 8px 0;
+}
+
+#our-goals h2 {
+    text-align: center;
+    margin: 8px 0;
 }
 
 /* footer */
