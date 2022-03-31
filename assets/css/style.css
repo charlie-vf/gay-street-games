@@ -232,8 +232,8 @@ hr {
 }
 
 #center-circle {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-style: solid;
     border-color: rgb(69, 30, 131, 0.1);
     border-width: 3px;
@@ -249,6 +249,11 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* text over image on hover */
+
+
 
 /* hover animation for eso-content divs */
 .grow p{
@@ -291,6 +296,57 @@ hr {
 #events h2 {
     color: #6738b3;
     text-decoration: underline;
+}
+
+#team {
+    background: url('../images/the-reach-blue-lights.jpeg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#team h2 {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    z-index: 1;
+    background: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#team div {
+    color: #2009a5;
+    background-color: rgba(233, 207, 243, 0.5);
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    border: 3px solid black;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+#team h3 {
+    font-size: 25px;
+}
+
+#team h4 {
+    font-size: 15px;
+    text-transform: none;
+    line-height: 20px;
+    text-align: center;
+}
+
+#team hr {
+    border-top: 1px solid #3b0a88;
+    width: 100%;
+    margin: 6px 0;
+    text-align: center;
 }
 
 /* footer */
