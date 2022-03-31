@@ -383,6 +383,8 @@ hr {
     float: left;
     border: 1px solid #3b0a88;
     border-radius: 25%;
+    background: rgb(32,9,165);
+    background: linear-gradient(90deg, rgba(32,9,165,.4) 0%, rgba(48,16,140,.4) 35%, rgba(142,88,215,.4) 100%);
 }
 
 .what-doing-content {
@@ -391,6 +393,25 @@ hr {
     line-height: 20px;
     margin-bottom: 50px;
 }
+
+.goals-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .goals-bg {
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .goals-content {
+    position: relative;
+  }
 
 /* footer */
 
