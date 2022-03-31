@@ -372,6 +372,19 @@ hr {
     margin: 8px 0;
 }
 
+#left-doing {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+.left-eso-content {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
 /* footer */
 
 footer {
