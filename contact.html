@@ -38,18 +38,32 @@
         </div>
     </section>
 
+    <section>
+        <h2 class="questions-heading">Got any Questions?</h2>
+        <div class="questions-text">
+            <p>The best place to see us in action is on Twitch!</p><br>
+            <p>If you've got any questions, feel free to ask! No question is a bad one.</p>
+            <p>If you're on PlayStation EU, we're happy to play alongside you. If not, we'll offer
+                all the advice we can!
+            </p>
+        </div>
+    </section>
+
     <section id="questions">
         <div id="form">
             <form action="https://formdump.codeinstitute.net" method="POST"></form>
             <label for="query-type">
-                Query type:
+                <h4>Query type:</h4>
                 </label>
-                <select id="language" name="language">
-                  <option value="dungeon">Dungeon Help</option>
-                  <option value="trial">Trial Help</option>
-                  <option value="General">General Help</option>
-                </select>
+                <br>
+            <label for="dungeon">Dungeon</label>
+            <input type="checkbox" id="dungeon" name="query-type" value="dungeon" required>
+            <label for="trial">Trial</label>
+            <input type="checkbox" id="trial" name="query-type" value="trial" required>
+            <label for="general">General</label>
+            <input type="checkbox" id="general" name="query-type" value="general" required>
 
+            <br><br><br>
                 <input type="text" name="name" class="ask-us" placeholder="Name" required>
                 <input type="text" name="email" class="ask-us" placeholder="Email" required>
                 <textarea name="question" class="ask-us" placeholder="Ask us anything!" required></textarea>

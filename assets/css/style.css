@@ -457,6 +457,61 @@ hr {
     position: relative;
   }
 
+/* contact page form */
+
+.questions-heading {
+    text-align: center;
+}
+
+#questions {
+    text-align: -webkit-center;
+    padding-top: 30px;
+    clear: both;
+    height: 500px;
+    border: 2px solid #3b0a88;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#form {
+    font-style: inherit;
+}
+
+#dropdown h4 {
+    line-height: 50px;
+}
+
+.ask-us {
+    color:#6738b3;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #010101;
+    border: 2px solid #3b0a88;
+    transition: all 0.3s;
+    padding: 13px;
+    margin: 0 5px 15px 5px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+/* text div */
+
+.questions-text {
+    width: 450px;
+    padding-left: 90px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    float: left;
+}
+
 /* footer */
 
 footer {
