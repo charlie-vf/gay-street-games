@@ -116,6 +116,28 @@ header a {
     }
 }
 
+#hero-image-three {
+    height: 600px;
+    width: 100%;
+    background: url('../images/frostvault.webp') no-repeat center center;
+
+
+    /* animates zoom on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/* level of zoom for hero image two */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 /* image text */
 
 #image-text {
@@ -158,6 +180,28 @@ header a {
 
     bottom: 250px;
     right: 600px;
+
+    position: absolute;
+}
+
+#image-text-three {
+    font-family: inherit;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #a8d2d2;
+    border-radius: 15px;
+
+    width: 175px;
+    height: 100px;
+
+    padding: 20px 0 0 5px;
+
+    background-color: rgba(110, 65, 223, 0.5);
+
+    bottom: 250px;
+    right: 635px;
 
     position: absolute;
 }
