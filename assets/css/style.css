@@ -461,13 +461,14 @@ hr {
 
 .questions-heading {
     text-align: center;
+    margin: 15px;
 }
 
 #questions {
     text-align: -webkit-center;
     padding-top: 30px;
     clear: both;
-    height: 500px;
+    height: 550px;
     border: 2px solid #3b0a88;
     width: 60%;
     margin: 0 auto;
@@ -477,8 +478,20 @@ hr {
     font-style: inherit;
 }
 
-#dropdown h4 {
-    line-height: 50px;
+#form h4 {
+    font-size: 120%;
+}
+
+.queries {
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.checkbox-size {
+    width: 20%;
+    margin: 0 auto;
 }
 
 .ask-us {
@@ -502,6 +515,11 @@ textarea {
     height: 200px;
 }
 
+::placeholder {
+    font-family: Oxanium, sans-serif;
+    text-transform: uppercase;
+}
+
 /* text div */
 
 .questions-text {
@@ -510,6 +528,21 @@ textarea {
     line-height: 20px;
     margin-bottom: 50px;
     float: left;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3b0a88;
+    color: #fafafa;
+    display: block;
+}
+
+.submit-btn:hover {
+    color: #c381dd;
 }
 
 /* footer */
