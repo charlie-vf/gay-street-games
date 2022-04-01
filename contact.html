@@ -29,7 +29,28 @@
             </ul>
         </nav>
     </header>
-    
+
+    <section id="questions">
+        <div id="form">
+            <form action="https://formdump.codeinstitute.net" method="POST"></form>
+            <label for="query-type">
+                Query type:
+                </label>
+                <select id="language" name="language">
+                  <option value="dungeon">Dungeon Help</option>
+                  <option value="trial">Trial Help</option>
+                  <option value="General">General Help</option>
+                </select>
+
+                <input type="text" name="name" class="ask-us" placeholder="Name" required>
+                <input type="text" name="email" class="ask-us" placeholder="Email" required>
+                <textarea name="question" class="ask-us" placeholder="Ask us anything!" required></textarea>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </section>
+
+
     <footer>
         <ul class="social-links">
             <li>
