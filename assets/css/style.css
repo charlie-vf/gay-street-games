@@ -362,8 +362,8 @@ hr {
 }
 
 #team div {
-    color: #c381dd;
-    background-color: rgba(91, 64, 240, 0.7);
+    color: #3b0a88;
+    background-color: rgba(108, 103, 134, 0.7);
     width: 25%;
     height: 300px;
     float: left;
@@ -394,6 +394,7 @@ hr {
 }
 
 /* hover animation for team divs */
+
 .grow h4{
     transition: 1s;
     }
@@ -425,10 +426,9 @@ hr {
     margin: 15px 100px;
     width: 33%;
     float: left;
-    border: 1px solid #3b0a88;
     border-radius: 25%;
-    background: rgb(32,9,165);
-    background: linear-gradient(90deg, rgba(32,9,165,.4) 0%, rgba(48,16,140,.4) 35%, rgba(142,88,215,.4) 100%);
+    background: rgb(9,84,165);
+    background: linear-gradient(90deg, rgba(9,84,165,.6) 9%, rgba(13, 91, 110, 0.5) 43%, rgba(104,88,215,.6) 100%);
 }
 
 .what-doing-content {
@@ -443,8 +443,8 @@ hr {
     position: relative;
   }
   
-  .goals-bg {
-    opacity: 0.7;
+.goals-bg {
+    opacity: 0.9;
     position: absolute;
     z-index: -1;
     left: 0;
@@ -453,11 +453,29 @@ hr {
     height: auto;
   }
   
-  .goals-content {
+.goals-content {
     position: relative;
   }
 
-/* contact page form */
+#our-goals hr {
+    margin-bottom: 15px;
+}
+
+/* contact page */
+
+    /* text div */
+
+#contact-page {
+    display: flex;
+    justify-content: space-between;
+}
+.questions-text {
+    width: 450px;
+    padding-left: 90px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    align-self: center;
+}
 
 .questions-heading {
     text-align: center;
@@ -470,9 +488,12 @@ hr {
     clear: both;
     height: 550px;
     border: 2px solid #3b0a88;
+    border-radius: 2%;
     width: 60%;
     margin: 0 auto;
 }
+
+/* form */
 
 #form {
     font-style: inherit;
@@ -518,16 +539,6 @@ textarea {
 ::placeholder {
     font-family: Oxanium, sans-serif;
     text-transform: uppercase;
-}
-
-/* text div */
-
-.questions-text {
-    width: 450px;
-    padding-left: 90px;
-    line-height: 20px;
-    margin-bottom: 50px;
-    float: left;
 }
 
 .submit-btn {
