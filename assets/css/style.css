@@ -167,13 +167,35 @@ header a {
     position: absolute;
 }
 
+#image-text-four {
+    font-family: inherit;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #c381dd;
+    border-radius: 15px;
+
+    width: 275px;
+    height: 150px;
+
+    padding: 20px 0 0 5px;
+
+    background-color: rgb(103, 56, 179, 0.4);
+
+    bottom: 70px;
+    right: 50px;
+
+    position: absolute;
+}
+
 #image-text-two {
     font-family: inherit;
     font-size: 200%;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    color: #00CED1;
+    color: #a8d2d2;
     border-radius: 15px;
 
     width: 225px;
