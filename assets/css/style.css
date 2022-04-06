@@ -25,6 +25,10 @@ h1 {
     font-size: 250%;
 }
 
+h2 {
+    font-size: 175%;
+}
+
 h3, h4 {
     text-transform: uppercase;
 }
@@ -52,6 +56,7 @@ header a {
 #menu a {
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 
 #menu a:hover {
@@ -142,19 +147,19 @@ header a {
 
 #image-text {
     font-family: inherit;
-    font-size: 150%;
+    font-size: 200%;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
     color: #c381dd;
     border-radius: 15px;
 
-    width: 250px;
-    height: 125px;
+    width: 350px;
+    height: 150px;
 
     padding: 20px 0 0 5px;
 
-    background-color: rgb(202, 146, 224, 0.5);
+    background-color: rgb(103, 56, 179, 0.4);
 
     top: 70px;
     left: 50px;
@@ -202,28 +207,6 @@ header a {
 
     bottom: 250px;
     right: 635px;
-
-    position: absolute;
-}
-
-#scroll-arrow {
-    font-family: inherit;
-    font-size: 200%;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #c381dd;
-    line-height: 50px;
-    border-radius: 15px;
-
-    width: 100px;
-    height: 150px;
-
-    padding: 10px 5px;
-
-    background-color: rgb(202, 146, 224, 0.3);
-
-    bottom: 70px;
-    right: 50px;
 
     position: absolute;
 }
@@ -428,7 +411,7 @@ hr {
     float: left;
     border-radius: 25%;
     background: rgb(9,84,165);
-    background: linear-gradient(90deg, rgba(9,84,165,.6) 9%, rgba(13, 91, 110, 0.5) 43%, rgba(104,88,215,.6) 100%);
+    background: linear-gradient(90deg, rgba(8, 57, 111, 0.6) 9%, rgba(9, 68, 82, 0.5) 43%, rgba(104,88,215,.6) 100%);
 }
 
 .what-doing-content {
