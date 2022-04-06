@@ -82,4 +82,3 @@ The page features an aside, explaining to users what sort of things they can exp
 Footer
 
 The footer is the same across all three pages and features links to the teams' Twitch, Discord, Twitter, YouTube and Instagram pages.
-
