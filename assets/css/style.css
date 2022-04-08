@@ -430,16 +430,33 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
+    background: url('../images/greymoor-header-one.jpeg') no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 50px;
 }
 
 .about-content {
     padding: 30px 80px;
     margin: 15px 100px;
-    width: 60%;
+    width: 50%;
+    height: 75%;
     border-radius: 25%;
     background: rgb(9,84,165);
     background: linear-gradient(90deg, rgba(8, 57, 111, 0.6) 9%, rgba(9, 68, 82, 0.5) 43%, rgba(104,88,215,.6) 100%);
     justify-content: center;
+}
+
+#about {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    text-align: center;
+}
+
+#about h2 {
+    padding: 10px 0;
 }
 
 .what-doing {
@@ -523,7 +540,7 @@ hr {
     grid-auto-flow: dense;
 }
 
-.heading {
+.form-heading {
     grid-column: span 4;
 }
 
