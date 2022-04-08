@@ -413,19 +413,6 @@ hr {
 
 /* what we're doing section */
 
-#our-goals {
-    width: 100%;
-    height: 700px;
-    margin: 8px 0;
-    display: inline-block;
-    text-align: center;
-}
-
-#our-goals h2 {
-    text-align: center;
-    padding: 15px;
-}
-
 .about-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -434,6 +421,7 @@ hr {
     width: 100%;
     background-size: cover;
     overflow: hidden;
+    padding-top: 25px;
     padding-bottom: 50px;
 }
 
@@ -457,46 +445,6 @@ hr {
 
 #about h2 {
     padding: 10px 0;
-}
-
-.what-doing {
-    padding: 15px;
-    margin: 15px 100px;
-    width: 33%;
-    float: left;
-    border-radius: 25%;
-    background: rgb(9,84,165);
-    background: linear-gradient(90deg, rgba(8, 57, 111, 0.6) 9%, rgba(9, 68, 82, 0.5) 43%, rgba(104,88,215,.6) 100%);
-}
-
-.what-doing-content {
-    width: 60%;
-    padding-left: 90px;
-    line-height: 20px;
-    margin-bottom: 50px;
-}
-
-.goals-wrap {
-    overflow: hidden;
-    position: relative;
-  }
-  
-.goals-bg {
-    opacity: 0.9;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-  }
-  
-.goals-content {
-    position: relative;
-  }
-
-#our-goals hr {
-    margin-bottom: 15px;
 }
 
 /* contact page */
