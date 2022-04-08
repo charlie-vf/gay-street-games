@@ -426,6 +426,22 @@ hr {
     padding: 15px;
 }
 
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.about-content {
+    padding: 30px 80px;
+    margin: 15px 100px;
+    width: 60%;
+    border-radius: 25%;
+    background: rgb(9,84,165);
+    background: linear-gradient(90deg, rgba(8, 57, 111, 0.6) 9%, rgba(9, 68, 82, 0.5) 43%, rgba(104,88,215,.6) 100%);
+    justify-content: center;
+}
+
 .what-doing {
     padding: 15px;
     margin: 15px 100px;
@@ -500,12 +516,28 @@ hr {
 
 /* form */
 
-#form {
-    font-style: inherit;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+}
+
+.heading {
+    grid-column: span 4;
+}
+
+.form {
+    grid-column: 2 / -1;
 }
 
 #form h4 {
     font-size: 120%;
+}
+
+.questions-text li {
+    margin: 10px 0 ;
+    list-style: none;
 }
 
 .queries {
@@ -525,13 +557,17 @@ hr {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    background-color: #010101;
+    background: rgb(58, 9, 165);
+    background: linear-gradient(90deg, rgba(58, 9, 165, 0.3) 9%, rgba(65, 27, 125, 0.3) 43%, rgba(134, 69, 225, 0.3) 100%);
     border: 2px solid #3b0a88;
-    transition: all 0.3s;
     padding: 13px;
     margin: 0 5px 15px 5px;
     width: 90%;
     box-sizing: border-box;
+}
+
+.ask-us:focus {
+    background: #010101;  
 }
 
 textarea {
@@ -563,21 +599,6 @@ textarea {
 
 
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    grid-auto-flow: dense;
-}
-
-.heading {
-    grid-column: span 4;
-}
-
-.form {
-    grid-column: 2 / -1;
-}
-
 /* footer */
 
 footer {
@@ -597,4 +618,33 @@ footer {
     letter-spacing: 50px;
     padding: 5%;
     color: #6738b3;
+}
+
+/* Media queries */
+/* For larger to medium screens size from 1200px wide and lower */
+
+@media screen and (max-width: 1200px) {
+    #eso-explained {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #eso-explained h2 {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-eso, #right-eso {
+        width: 90%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-explained {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0 0 10px 0;
+    }
 }
