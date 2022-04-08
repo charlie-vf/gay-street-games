@@ -39,12 +39,12 @@
     </section>
 
 <!-- form, heading & aside text -->
-
-    <section>
-        <h2 class="questions-heading">Got any Questions?</h2>
+<section>
+    <div class="wrapper">
+        <div class="heading">
+            <h2 class="questions-heading">Got any Questions?</h2>
         <br>
-    <section id="contact-page">
-
+        </div>
         <div class="questions-text">
             <p>The best place to see us in action is on Twitch! (links at bottom of page)</p><br>
             <p>If you've got any questions, feel free to ask! No question is a bad one.</p>
@@ -54,30 +54,27 @@
             <p>Dungeon/Trial = request help with dungeon/trial runs (PS EU exclusive)</p>
             <p>General = anything else! </p>
         </div>
-
-    <section id="questions">
-        <div id="form">
+        <div id="questions" class="form">
             <form action="https://formdump.codeinstitute.net" method="POST">
-            <h4>Query type:</h4>
-                <br>
-            <div class="queries">    
-                <label for="dungeon">Dungeon</label>
-                <input type="checkbox" id="dungeon" name="query-type" value="dungeon" class="checkbox-size">
-                <label for="trial">Trial</label>
-                <input type="checkbox" id="trial" name="query-type" value="trial" class="checkbox-size">
-                <label for="general">General</label>
-                <input type="checkbox" id="general" name="query-type" value="general" class="checkbox-size">
-            </div>
-            <br><br><br>
-
-                <input type="text" name="name" class="ask-us" placeholder="Name" required>
-                <input type="text" name="email" class="ask-us" placeholder="Email" required>
-                <textarea name="question" class="ask-us" placeholder="Ask us anything!" required></textarea>
-                <input type="submit" value="SUBMIT" class="submit-btn"/>
-            </form>
+                <h4>Query type:</h4>
+                    <br>
+                    <div class="queries">    
+                        <label for="dungeon">Dungeon</label>
+                        <input type="checkbox" id="dungeon" name="query-type" value="dungeon" class="checkbox-size">
+                        <label for="trial">Trial</label>
+                        <input type="checkbox" id="trial" name="query-type" value="trial" class="checkbox-size">
+                        <label for="general">General</label>
+                        <input type="checkbox" id="general" name="query-type" value="general" class="checkbox-size">
+                    </div>
+                    <br><br><br>
+        
+                        <input type="text" name="name" class="ask-us" placeholder="Name" required>
+                        <input type="text" name="email" class="ask-us" placeholder="Email" required>
+                        <textarea name="question" class="ask-us" placeholder="Ask us anything!" required></textarea>
+                        <input type="submit" value="SUBMIT" class="submit-btn"/>
+                    </form>
         </div>
-    </section>
-</section>
+    </div>
 </section>
 
 <!-- footer -->

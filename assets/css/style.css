@@ -494,7 +494,7 @@ hr {
     height: 550px;
     border: 2px solid #3b0a88;
     border-radius: 2%;
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -559,6 +559,23 @@ textarea {
 
 .submit-btn:hover {
     color: #c381dd;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+}
+
+.heading {
+    grid-column: span 4;
+}
+
+.form {
+    grid-column: 2 / -1;
 }
 
 /* footer */
