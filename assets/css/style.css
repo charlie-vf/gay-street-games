@@ -303,7 +303,7 @@ hr {
     background-position: center;
 }
 
-/* hover animation for eso-content & team divs */
+/* hover animation for eso-explained and about sections */
 .grow p{
     transition: 1s;
     }
@@ -447,20 +447,6 @@ hr {
     margin: 6px 0;
     text-align: center;
 }
-
-/* hover animation for team divs */
-
-.grow h4{
-    transition: 1s;
-    }
-    
-.grow h4:hover{
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1.15);
-    transition: 1s;
-    }
-
 
 /* what we're doing section */
 
@@ -654,7 +640,7 @@ footer {
     #left-eso, #right-eso {
         width: 90%;
         float: left;
-        padding: 0;
+        padding: 0 20px;
     }
 
     #center-explained {
@@ -679,6 +665,11 @@ footer {
         margin: 0 10px;
     }
 
+    #events > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+    }
 
 }
 
