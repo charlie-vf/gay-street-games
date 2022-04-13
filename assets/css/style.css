@@ -15,7 +15,7 @@ body {
 /* headings & logo */
 
 h1, h2 {
-    font-family: 'Major Mono', 'Reggae One' monospace, sans-serif;
+    font-family: 'Major Mono', 'Reggae One', Oxanium, sans-serif;
     color: #6738b3;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -315,7 +315,6 @@ hr {
     transition: 1s;
     }
 
-
 /* What's Going On Right Now section */
     
 #current-game-wrapper {
@@ -532,12 +531,13 @@ hr {
 }
 
     /* form */
-
+    
 .form-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     grid-auto-flow: dense;
+    justify-content: space-between;
 }
 
 .form-heading {
@@ -641,8 +641,8 @@ footer {
 
 @media screen and (max-width: 1200px) {
     #eso-explained {
-        width: 65%;
-        height: 1200px;
+        width: 85%;
+        height: auto;
         margin: 0 auto;
     }
 
@@ -658,10 +658,25 @@ footer {
     }
 
     #center-explained {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0 0 10px 0;
+        display: none;
+    }
+
+    #current-game-wrapper {
+        width: auto;
+        padding: 10px 0 50px 0;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        column-gap: 5rem;
+        row-gap: 2rem;
+        grid-template-areas:
+        "hd hd hd hd hd hd"
+        "dl dl dl dl dl dl"
+        "ev ev ev ev ev ev";
+    }
+
+    .dlc, .event {
+        margin: 0 10px;
     }
 
 
