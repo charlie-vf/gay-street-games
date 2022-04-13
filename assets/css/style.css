@@ -316,6 +316,34 @@ hr {
     }
 
 
+/* What's Going On Right Now section */
+    
+#current-game-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 5rem;
+    grid-template-areas:
+    "hd hd hd hd hd hd"
+    "dl dl dl ev ev ev";
+}
+
+.current-game-heading {
+    grid-area: hd;
+    text-align: center;
+}
+
+.dlc {
+    grid-area: dl;
+    grid
+}
+
+.event {
+    grid-area: ev;
+}
+
+
 /* events section */
 
 #events {
@@ -411,6 +439,7 @@ hr {
     transition: 1s;
     }
 
+
 /* what we're doing section */
 
 .about-wrapper {
@@ -449,7 +478,7 @@ hr {
 
 /* contact page */
 
-    /* text div */
+    /* left text div */
 
 #contact-page {
     display: flex;
@@ -479,9 +508,9 @@ hr {
     margin: 0 auto;
 }
 
-/* form */
+    /* form */
 
-.wrapper {
+.form-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
@@ -563,7 +592,6 @@ textarea {
 }
 
 
-
 /* footer */
 
 footer {
@@ -612,4 +640,11 @@ footer {
         float: left;
         padding: 0 0 10px 0;
     }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    
+
 }
