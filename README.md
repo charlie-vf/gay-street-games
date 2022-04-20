@@ -46,7 +46,7 @@ Blue:
 
 Fonts
 
-The two fonts used on the site are Major Mono (main headings & nav links) and Oxanium (body and other headings). I chose these two as they are quite similar but provide a decent contrast and are very easy to read. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.
+The font used in this website is Oxanium. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.
 I used text transform to make the headings and links uppercase for contrast.
 I also used text zoom for most of the information text as I thought this was a fun feature to experiment with and it adds an extra level of interactivity which I believe gamers will subconsciously enjoy. It also helps with focussing on text.
 

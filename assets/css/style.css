@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&familyfamily=Reggae+One&family=Oxanium:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Reggae+One&family=Oxanium:wght@300&display=swap');
 
 * {
     padding: 0;
@@ -14,6 +14,11 @@ body {
 
 /* headings & logo */
 
+#gay {
+    text-align: center;
+    padding-top: 15px;
+}
+
 h1, h2 {
     font-family: 'Major Mono', 'Reggae One', Oxanium, sans-serif;
     color: #6738b3;
@@ -22,20 +27,15 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 250%;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 175%;
+    font-size: 1.75rem;
 }
 
 h3, h4 {
     text-transform: uppercase;
-}
-
-#gay {
-    text-align: center;
-    padding-top: 15px;
 }
 
 header a {
@@ -43,7 +43,7 @@ header a {
 }
 
 #menu {
-    font-size: 150%;
+    font-size: 1.5rem;
     line-height: 30px;
     padding-bottom: 15px;
 }
@@ -67,29 +67,26 @@ header a {
     border-bottom: 1px solid #6738b3;
 }
 
-/* hero image */
+/* hero images */
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: blueviolet;
 }
 
-#hero-image {
+#hero-image, #hero-image-two, #hero-image-three {
     height: 600px;
     width: 100%;
-    background: url(../images/eso1.jpeg) no-repeat center center;
 
-
-    /* animates zoom on loading page */
+    /* animates zoom on hero images */
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
-/* level of zoom for hero image */
+/* level of zoom for hero images */
 @keyframes hero-zoom {
     from {
         transform: scale(1.11);
@@ -99,140 +96,71 @@ header a {
     }
 }
 
-#hero-image-two {
-    height: 600px;
-    width: 100%;
-    background: url('../images/greymoor-one.jpeg') no-repeat center center;
-
-
-    /* animates zoom on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
+#hero-image {
+    background: url('../images/eso1.jpeg') no-repeat center center;
 }
 
-/* level of zoom for hero image two */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1.1);
-    }
-    to {
-        transform: scale(1);
-    }
+#hero-image-two {
+    background: url('../images/greymoor-one.jpeg') no-repeat center center;
 }
 
 #hero-image-three {
-    height: 600px;
-    width: 100%;
     background: url('../images/frostvault.webp') no-repeat center center;
-
-
-    /* animates zoom on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
 }
 
-/* level of zoom for hero image two */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1.1);
-    }
-    to {
-        transform: scale(1);
-    }
-}
+/* image texts */
 
-/* image text */
-
-#image-text {
+#image-text, #image-text-two, #image-text-three, #image-text-four {
     font-family: inherit;
-    font-size: 200%;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    color: #c381dd;
     border-radius: 15px;
-
-    width: 350px;
-    height: 150px;
 
     padding: 20px 0 0 5px;
 
-    background-color: rgb(103, 56, 179, 0.4);
+    position: absolute;
+}
 
+#image-text, #image-text-four {
+    color: #c381dd;
+    background-color: rgb(103, 56, 179, 0.4);
+}
+
+#image-text {
+    width: 350px;
+    height: 150px;
     top: 70px;
     left: 50px;
-
-    position: absolute;
 }
 
 #image-text-four {
-    font-family: inherit;
-    font-size: 200%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #c381dd;
-    border-radius: 15px;
-
     width: 275px;
     height: 150px;
-
-    padding: 20px 0 0 5px;
-
-    background-color: rgb(103, 56, 179, 0.4);
-
     bottom: 70px;
     right: 50px;
+}
 
-    position: absolute;
+#image-text-two, #image-text-three {
+    color: #a8d2d2;
 }
 
 #image-text-two {
-    font-family: inherit;
-    font-size: 200%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #a8d2d2;
-    border-radius: 15px;
-
+    background-color: rgba(123, 112, 226, 0.5);
     width: 225px;
     height: 100px;
-
-    padding: 20px 0 0 5px;
-
-    background-color: rgba(123, 112, 226, 0.5);
-
     bottom: 250px;
     right: 600px;
-
-    position: absolute;
 }
 
 #image-text-three {
-    font-family: inherit;
-    font-size: 200%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #a8d2d2;
-    border-radius: 15px;
-
+    background-color: rgba(110, 65, 223, 0.5);
     width: 175px;
     height: 100px;
-
-    padding: 20px 0 0 5px;
-
-    background-color: rgba(110, 65, 223, 0.5);
-
     bottom: 250px;
     right: 635px;
-
-    position: absolute;
 }
-
 /* about eso wheel */
 
 #eso-explained {
@@ -266,6 +194,22 @@ header a {
     padding: 120px;
 }
 
+#center-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#center-circle-bg {
+    background: url('../images/the-prophet.jpeg');
+    height: 100%;
+    border-radius: 50%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 hr {
     border-top: 1px solid #6738b3;
     width: 100%;
@@ -285,22 +229,6 @@ hr {
     line-height: 20px;
     margin-bottom: 50px;
     clear: both;
-}
-
-#center-circle {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#center-circle-bg {
-    background: url('../images/the-prophet.jpeg');
-    height: 100%;
-    border-radius: 50%;
-    background-size: 200%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 /* hover animation for eso-explained and about sections */
@@ -329,11 +257,6 @@ hr {
     "dl dl dl ev ev ev";
 }
 
-.current-game-heading {
-    grid-area: hd;
-    text-align: center;
-}
-
 #current-game-wrapper h3 {
     color: #6738b3;
 }
@@ -342,27 +265,35 @@ hr {
     margin: 8px 0;
 }
 
-.dlc {
+.current-game-heading {
+    grid-area: hd;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dlc, .event {
+    max-width: 80%;
     grid-area: dl;
-    margin-left: 25px;
     padding: 8px;
     border: 1px solid #3b0a88;
     border-radius: 10px;
     line-height: 20px;
 }
 
-.dlc a {
-    text-decoration: underline;
-    color: inherit;
+.dlc {
+    grid-area: dl;
+    margin-left: 15%;
 }
 
 .event {
     grid-area: ev;
-    margin-right: 25px;
-    padding: 8px;
-    border: 1px solid #3b0a88;
-    border-radius: 10px;
-    line-height: 20px;
+    margin-right: 15%;
+}
+
+
+.dlc a {
+    text-decoration: underline;
+    color: inherit;
 }
 
 
@@ -419,6 +350,7 @@ hr {
 #team div {
     color: #3b0a88;
     background-color: rgba(108, 103, 134, 0.7);
+    backdrop-filter: blur(.1rem);
     width: 25%;
     height: 300px;
     float: left;
@@ -450,6 +382,17 @@ hr {
 
 /* what we're doing section */
 
+#about {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    text-align: center;
+}
+
+#about h2 {
+    padding: 10px 0;
+}
+
 .about-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -473,17 +416,6 @@ hr {
     justify-content: center;
 }
 
-#about {
-    width: 100%;
-    height: auto;
-    margin: 15px 0;
-    text-align: center;
-}
-
-#about h2 {
-    padding: 10px 0;
-}
-
 /* contact page */
 
     /* left text div */
@@ -491,18 +423,6 @@ hr {
 #contact-page {
     display: flex;
     justify-content: space-between;
-}
-.questions-text {
-    width: 450px;
-    padding-left: 90px;
-    line-height: 20px;
-    margin-bottom: 50px;
-    align-self: center;
-}
-
-.questions-heading {
-    text-align: center;
-    margin: 15px;
 }
 
 #questions {
@@ -514,6 +434,19 @@ hr {
     border-radius: 2%;
     width: 90%;
     margin: 0 auto;
+}
+
+.questions-text {
+    width: 450px;
+    padding-left: 90px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.questions-heading {
+    text-align: center;
+    margin: 15px;
 }
 
     /* form */
@@ -535,7 +468,7 @@ hr {
 }
 
 #form h4 {
-    font-size: 120%;
+    font-size: 1.2rem;
 }
 
 .questions-text li {
@@ -590,7 +523,7 @@ textarea {
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
-    font-size: 100%;
+    font-size: 1rem;
     background-color: #3b0a88;
     color: #fafafa;
     display: block;
@@ -616,13 +549,14 @@ footer {
 }
 
 .social-links i {
-    font-size: 200%;
+    font-size: 2rem;
     letter-spacing: 50px;
     padding: 5%;
     color: #6738b3;
 }
 
 /* Media queries */
+
 /* For larger to medium screens size from 1200px wide and lower */
 
 @media screen and (max-width: 1200px) {
@@ -649,7 +583,7 @@ footer {
 
     #current-game-wrapper {
         width: auto;
-        padding: 10px 0 50px 0;
+        padding: 20px 0 50px 0;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-auto-rows: minmax(100px, auto);
@@ -661,15 +595,17 @@ footer {
         "ev ev ev ev ev ev";
     }
 
-    .dlc, .event {
-        margin: 0 10px;
-    }
-
     #events > div {
         width: 100%;
         clear: both;
         height: 150px;
     }
+
+    .dlc, .event {
+        margin: 0 auto;
+    }
+
+    
 
 }
 
