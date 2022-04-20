@@ -502,12 +502,20 @@ hr {
     text-align: center;
     padding: 0 10px;
     letter-spacing: 2px;
+    line-height: 30px;
     text-transform: uppercase;
+    position: relative;
 }
 
 .checkbox-size {
     width: 20%;
-    margin: 0 auto;
+    padding: 0 20px;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    margin-left: -50px;
 }
 
 .ask-us {
@@ -703,6 +711,21 @@ footer {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    #form-wrapper {
+        grid-template-areas: 
+        ". fo-hd fo-hd fo-hd fo-hd ."
+        "qu qu qu qu qu qu"
+        "fo fo fo fo fo fo";
+    }
+
+    .questions-heading {
+        margin-left: 35%;
+    }
+
+    .questions-text {
+        padding: 0 20px;
     }
 
     .left-eso-content, .right-eso-content {
