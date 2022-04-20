@@ -11,6 +11,7 @@ body {
     font-family: Oxanium, sans-serif;
     color: #ca92e0;
     background-color: black;
+    font-size: 16px;
 }
 
 /* headings & logo */
@@ -310,7 +311,6 @@ hr {
 }
 
 #events div {
-    color: #4e0bb9;
     background-color: rgba(233, 207, 243, 0.4);
     width: 20%;
     height: 150px;
@@ -324,8 +324,13 @@ hr {
 }
 
 #events h2 {
-    color: #6738b3;
     text-decoration: underline;
+    margin-bottom: 10px;
+    color: #010101;
+}
+
+.events {
+    color: #010101;
 }
 
 /* meet the team section */
@@ -349,9 +354,9 @@ hr {
 }
 
 #team div {
-    color: #3b0a88;
-    background-color: rgba(108, 103, 134, 0.7);
-    backdrop-filter: blur(.1rem);
+    color: #ca92e0;
+    background-color: rgba(21, 11, 43, 0.75);
+    backdrop-filter: blur(.12rem);
     width: 25%;
     height: 300px;
     float: left;
@@ -364,11 +369,10 @@ hr {
 }
 
 #team h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 #team h4 {
-    font-size: 15px;
     text-transform: none;
     line-height: 20px;
     text-align: center;
@@ -394,7 +398,7 @@ hr {
     padding: 10px 0;
 }
 
-.about-wrapper {
+#about-wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: minmax(100px, auto);
@@ -603,6 +607,10 @@ footer {
         padding: 0 20px;
     }
 
+    .left-eso-content, .right-eso-content {
+        line-height: 1.5rem;
+    }
+
     #center-explained {
         display: none;
     }
@@ -621,6 +629,14 @@ footer {
         "ev ev ev ev ev ev";
     }
 
+    .events {
+        color: #3b0a88;
+    }
+
+    #events h2 {
+        color: #3b0a88;
+    }
+
     #events > div {
         width: 100%;
         clear: both;
@@ -629,6 +645,7 @@ footer {
 
     .dlc, .event {
         margin: 0 auto;
+        line-height: 1.5rem;
     }
 
     #image-text-two {
@@ -647,6 +664,24 @@ footer {
     #team h4 {
         font-size: 1.2rem;
         line-height: 25px;
+    }
+
+    #about-wrapper {
+        width: auto;
+        padding: 20px 0 50px 0;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        column-gap: 5rem;
+        row-gap: 2rem;
+        grid-template-areas:
+        "te te te te te te"
+        "cr cr cr cr cr cr"
+        "fu fu fu fu fu fu";
+    }
+
+    .about-content {
+        width: 50%;
     }
 
 }
