@@ -7,6 +7,7 @@
 }
 
 body {
+    max-width: 1800px;
     font-family: Oxanium, sans-serif;
     color: #ca92e0;
     background-color: black;
@@ -395,25 +396,41 @@ hr {
 
 .about-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 8rem;
+    row-gap: 3rem;
+    grid-template-areas:
+    ". te te cr cr ."
+    ". . fu fu . .";
     background: url('../images/greymoor-header-one.jpeg') no-repeat center center;
     width: 100%;
     background-size: cover;
     overflow: hidden;
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+}
+
+.teach {
+    grid-area: te;
+}
+
+.create {
+    grid-area: cr;
+}
+
+.fun {
+    grid-area: fu;
 }
 
 .about-content {
     padding: 30px 80px;
-    margin: 15px 100px;
-    width: 50%;
+    margin: 0 auto;
+    width: 70%;
     height: 75%;
     border-radius: 25%;
     background: rgb(9,84,165);
     background: linear-gradient(90deg, rgba(8, 57, 111, 0.6) 9%, rgba(9, 68, 82, 0.5) 43%, rgba(104,88,215,.6) 100%);
-    justify-content: center;
 }
 
 /* contact page */
@@ -557,6 +574,15 @@ footer {
 
 /* Media queries */
 
+/* For large screens max-width 1920px and lower */
+
+@media screen and (max-width: 1920px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* For larger to medium screens size from 1200px wide and lower */
 
 @media screen and (max-width: 1200px) {
@@ -605,7 +631,23 @@ footer {
         margin: 0 auto;
     }
 
-    
+    #image-text-two {
+        right: 35%;
+    }
+
+    #team div {
+        width: 100%;
+        backdrop-filter: blur(.15rem);
+    }
+
+    #team h3 {
+        font-size: 1.8rem;
+    }
+
+    #team h4 {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
 
 }
 
