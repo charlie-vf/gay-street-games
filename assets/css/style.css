@@ -80,7 +80,7 @@ header a {
 
 #hero-image, #hero-image-two, #hero-image-three {
     height: 600px;
-    width: 100%;
+    width: auto;
 
     /* animates zoom on hero images */
     animation-name: hero-zoom;
@@ -127,7 +127,8 @@ header a {
 
 #image-text, #image-text-four {
     color: #c381dd;
-    background-color: rgb(103, 56, 179, 0.4);
+    background-color: rgba(41, 19, 76, 0.5);
+
 }
 
 #image-text {
@@ -395,7 +396,7 @@ hr {
 }
 
 #about h2 {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 #about-wrapper {
@@ -441,10 +442,16 @@ hr {
 
     /* left text div */
 
-#contact-page {
-    display: flex;
-    justify-content: space-between;
-}
+#form-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 3rem;
+    grid-template-areas:
+    ". . fo-hd fo-hd . ."
+    "qu qu fo fo fo fo";
+    }
 
 #questions {
     text-align: -webkit-center;
@@ -457,35 +464,29 @@ hr {
     margin: 0 auto;
 }
 
+.questions-heading {
+    grid-area: fo-hd;
+    margin-top: 15px;
+    margin-left: 50%;
+    text-align: center;
+}
+
 .questions-text {
-    width: 450px;
+    grid-area: qu;
     padding-left: 90px;
     line-height: 20px;
     margin-bottom: 50px;
     align-self: center;
 }
 
-.questions-heading {
-    text-align: center;
-    margin: 15px;
-}
-
     /* form */
-    
-.form-wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    grid-auto-flow: dense;
-    justify-content: space-between;
-}
 
 .form-heading {
     grid-column: span 4;
 }
 
 .form {
-    grid-column: 2 / -1;
+    grid-area: fo;
 }
 
 #form h4 {
@@ -688,5 +689,25 @@ footer {
 
 @media screen and (max-width: 900px) {
     
+    #eso-explained {
+        width: 100%;
+    }
+    
+    #image-text, #image-text-four {
+        margin: 0 auto;
+        height: auto;
+        width: 275px;
+    }
+
+    #image-text-two, #image-text-three {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .left-eso-content, .right-eso-content {
+        width: 100%;
+        clear: both;
+    }
 
 }
