@@ -147,22 +147,21 @@ header a {
 
 #image-text-two, #image-text-three {
     color: #a8d2d2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #image-text-two {
     background-color: rgba(123, 112, 226, 0.5);
     width: 225px;
     height: 100px;
-    bottom: 250px;
-    right: 600px;
 }
 
 #image-text-three {
     background-color: rgba(110, 65, 223, 0.5);
     width: 175px;
     height: 100px;
-    bottom: 250px;
-    right: 635px;
 }
 /* about eso wheel */
 
@@ -432,7 +431,7 @@ hr {
     padding: 30px 80px;
     margin: 0 auto;
     width: 70%;
-    height: 75%;
+    height: auto;
     border-radius: 25%;
     background: rgb(9,84,165);
     background: linear-gradient(90deg, rgba(8, 57, 111, 0.6) 9%, rgba(9, 68, 82, 0.5) 43%, rgba(104,88,215,.6) 100%);
@@ -515,7 +514,7 @@ form > h4 {
 input[type=checkbox] {
     vertical-align: middle;
     position: relative;
-    margin-left: -50px;
+    margin-left: -55px;
 }
 
 label {
@@ -584,6 +583,7 @@ textarea {
 
 footer {
     height: 100px;
+    width: auto;
 }
 
 .social-links {
@@ -673,10 +673,6 @@ footer {
         line-height: 1.5rem;
     }
 
-    #image-text-two {
-        right: 35%;
-    }
-
     #team div {
         width: 100%;
         backdrop-filter: blur(.15rem);
@@ -711,7 +707,7 @@ footer {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     
     #eso-explained {
         width: 100%;
@@ -721,12 +717,6 @@ footer {
         margin: 0 auto;
         height: auto;
         width: 275px;
-    }
-
-    #image-text-two, #image-text-three {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 
     #form-wrapper {
@@ -740,7 +730,6 @@ footer {
         height: auto;
     }
 
-
     .questions-text {
         padding: 0 20px;
     }
@@ -751,7 +740,12 @@ footer {
     }
 
     input[type=checkbox] {
-        margin-left: -6%;
+        margin-left: -5%;
+        display: inline-block;
+    }
+
+    footer > ul {
+        margin-left: 50px;
     }
 
 }
