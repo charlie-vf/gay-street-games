@@ -56,6 +56,7 @@
             </li>
             <li>Dungeon/Trial = request help with dungeon/trial runs</li>
             <li>General = anything else! </li>
+            <li>You can select multiple options for multiple questions if you like!</li>
         </ul>
         </div>
         <div id="questions" class="form">
@@ -71,12 +72,16 @@
                         <input type="checkbox" id="general" name="query-type" value="general" class="checkbox-size">
                     </div>
                     <br><br><br>
-        
-                        <input type="text" name="name" class="ask-us" placeholder="Name" required>
-                        <input type="text" name="email" class="ask-us" placeholder="Email" required>
+                    <div class="info">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="ask-us" placeholder="Name" required>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" class="ask-us" placeholder="Email" required>
+                        <label for="ask-us">Ask Us:</label>
                         <textarea name="question" class="ask-us" placeholder="Ask us anything!" required></textarea>
                         <input type="submit" value="SUBMIT" class="submit-btn"/>
-                    </form>
+                    </div>
+                </form>
         </div>
     </div>
 </section>

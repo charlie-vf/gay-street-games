@@ -440,24 +440,25 @@ hr {
 
 /* contact page */
 
-    /* left text div */
-
 #form-wrapper {
     width: 100%;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: minmax(100px, auto);
     column-gap: 3rem;
     grid-template-areas:
-    ". . fo-hd fo-hd . ."
+    "fo-hd fo-hd fo-hd fo-hd fo-hd fo-hd"
     "qu qu fo fo fo fo";
     }
+
+    /* left text div */
 
 #questions {
     text-align: -webkit-center;
     padding-top: 30px;
     clear: both;
-    height: 550px;
+    height: auto;
     border: 2px solid #3b0a88;
     border-radius: 2%;
     width: 90%;
@@ -467,7 +468,6 @@ hr {
 .questions-heading {
     grid-area: fo-hd;
     margin-top: 15px;
-    margin-left: 50%;
     text-align: center;
 }
 
@@ -482,15 +482,15 @@ hr {
     /* form */
 
 .form-heading {
-    grid-column: span 4;
+    grid-column: span 6 / -1;
 }
 
 .form {
     grid-area: fo;
 }
 
-#form h4 {
-    font-size: 1.2rem;
+form > h4 {
+    font-size: 1.1rem;
 }
 
 .questions-text li {
@@ -501,9 +501,9 @@ hr {
 .queries {
     text-align: center;
     padding: 0 10px;
+    margin-bottom: -25px;
     letter-spacing: 2px;
     line-height: 30px;
-    text-transform: uppercase;
     position: relative;
 }
 
@@ -516,6 +516,22 @@ input[type=checkbox] {
     vertical-align: middle;
     position: relative;
     margin-left: -50px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+.info > label {
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.info {
+    margin-bottom: 10px;
 }
 
 .ask-us {
@@ -549,7 +565,7 @@ textarea {
 }
 
 .submit-btn {
-    margin-top: 20px;
+    margin: 20px 0;
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
@@ -720,9 +736,10 @@ footer {
         "fo fo fo fo fo fo";
     }
 
-    .questions-heading {
-        margin-left: 35%;
+    #questions {
+        height: auto;
     }
+
 
     .questions-text {
         padding: 0 20px;
@@ -731,6 +748,10 @@ footer {
     .left-eso-content, .right-eso-content {
         width: 100%;
         clear: both;
+    }
+
+    input[type=checkbox] {
+        margin-left: -6%;
     }
 
 }
