@@ -61,14 +61,20 @@ Navigation Bar
 
 The fully responsive navigation bar features a logo which links back to the homepage, as well as links to the home, about us and contact us pages. It is the same on each page and includes a background highlight on hover and active underline features so its clear to the user where they're going and where they are. There is no need to use the brower's back button to navigate the website.
 
+![Nav bar](assets/images/nav-bar-ss.png)
+
 Hero Images
 
 Each page features a full-width image from the Elder Scrolls Online with image text over it providing a short description of what the page is about.
 I chose to continue the theme of a large image across all three pages as I found it satisfying when switching between pages to not have a sudden change in page layout. On full screen laptops, the image leaves space at the bottom allowing the first of that page's headings to be visible, encouraging the user to scroll down to see the content. 
 
+![Hero image on home page](assets/images/hero-image-ss.png)
+
 Home
 
 The homepage provides background information on what the Elder Scrolls Online is and what's currently happening in the game, as well as telling the user about that week's upcoming events in the club.
+
+![What is ESO](assets/images/what-is-eso-ss.png)
 
 I chose to provide a link to an external page in the Chapter DLC section of the homepage as I felt it redundant to include all the information about the High Isles DLC in my own website as there are other sites which have already gone ahead and done that; and also that simply giving an overview of the Chapter's main features fit better with the overall content inclusion on my site. 
 
@@ -76,33 +82,49 @@ Events
 
 The week events section will be continously updated and details what is focussed on in each Twitch session. 
 
+![Twitch events](assets/images/events-ss.png)
+
 About Us
 
 The about us page introduces the user to the team behind the site and why they've chosen to come together to make a collaborative place for players both new and experienced.
+
+![Meet the team](assets/images/meet-the-team-ss.png)
 
 Contact Us
 
 The contact us page provides a form for users to send any questions they may have to the team. The form has three checkbox options to help categorise the query.
 The page features an aside, explaining to users what sort of things they can expect help with and what is dependent on the platform they game on. 
 
+![Form](assets/images/form-ss.png)
+
 Footer
 
 The footer is the same across all three pages and features links to the teams' Twitch, Discord, Twitter, YouTube and Instagram pages.
+
+![Footer](assets/images/footer-ss.png)
 
 
 Technologies
 
 - HTML: The main language of the project for providing structure and content
 - CSS: Adds custom styling and personality to the page
-- Google Fonts: Used to import the "Oxanium" font
+- Google Fonts: Used to import the "Reggae One" and "Oxanium" fonts
 - TinyPNG: Used to compress the file sizes of the images on the site
 - Font Awesome: Supplied the icons used in the Footer for social media links
+- Am I Responsive?: Generated website mockup across devices
 
+Testing
 
+- I ensured the site works across all screen sizes, from widescreen to mobile, using DevTools.
+- I tested the site on my own mobile and my friends' to double check responsiveness
+- I ensured the form submits properly and requires input in the relevant fields
 
 Validation
 
-- 
+- Passes W3C HTML Validator with no issues
+- Passes W3C CSS Validator with no issues
+
+I used lighthouse in DevTools to further check the functionality of my site, and the only issue flagged was my headings hierarchy as the image text over the main page images are h3s, meaning there is a jump from the logo h1 before reaching the h2s defining each section of content on the page. 
 
 
 
