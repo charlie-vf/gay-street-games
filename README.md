@@ -29,6 +29,7 @@ Design
 Images
 
 All the images used on the site are related to the Elder Scrolls Online, and not just video gaming in general. I chose specific images I felt reflected the beauty of the game, both in character design and landscaping, lighting, colors etc.
+For example, the center circle image on the homepage is The Prophet, a prominent character in the Main Story of the game; and the hero image on the About Us page is of Fennorian, a character from 2020's DLC release - Greymoor - and a player character. 
 The color theme of the images matches that of the site as a whole, which is focussed around purples and blues.
 
 Color
@@ -37,14 +38,14 @@ The main colors used on the site are purples, with some blues, against a black p
 
 Purple:
 #ca92e0 is used for most of the body text and the menu links
-#6738b3 is used for most of the headings and the site logo
+#905ce2 is used for the headings,site logo & social media links
 
-^^^ after putting the site through an accessibility validator, the headings and site logo color was changed to #8656d4 to increase the color contrast ration from 2.9 to 4.5. 
+The original color used for headings was #6738b3, however after putting the site through an accessibility validator, this proved too dark a shade against the black background. Changing to #905ce2 increased the color contrast ratio from 2.9 to just over 4.5.
 
 Variations on the above colors were used where the colors of the background images required it for visual accessibility, including using rgb opacity values. 
 
 Blue:
-#a8d2d2 is used in the image-text for the about us and contact us pages
+#a8d2d2 is used in the image-text for the About Us and Contact Us pages
 
 Fonts
 
@@ -101,6 +102,7 @@ Technologies
 
 Validation
 
+- 
 
 
 
@@ -108,3 +110,5 @@ Future Installments
 
 - The checkboxes on the form are not required to be checked in order for the form to be submitted, unlike the text fields, as HTML5 doesn't allow the instruction of at least one box needing to be checked amongst multiple.
 Once I've learnt the relevant JavaScript, I'll add this feature to the boxes.
+- I would like to add another page more dedicated to the Twitch side of the group, with video clips and
+links to individual channels, however time constraints and priority management did not allow me to do this. 
