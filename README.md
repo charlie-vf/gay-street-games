@@ -39,16 +39,18 @@ Purple:
 #ca92e0 is used for most of the body text and the menu links
 #6738b3 is used for most of the headings and the site logo
 
-Variations on the above colors were used where the colors of the background images required it for visual accessibility
+^^^ after putting the site through an accessibility validator, the headings and site logo color was changed to #8656d4 to increase the color contrast ration from 2.9 to 4.5. 
+
+Variations on the above colors were used where the colors of the background images required it for visual accessibility, including using rgb opacity values. 
 
 Blue:
 #a8d2d2 is used in the image-text for the about us and contact us pages
 
 Fonts
 
-The font used in this website is Oxanium. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.
+The fonts used in this website are Reggae One for the logo and main section headings, and Oxanium for lower tier headings and body text. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.
 I used text transform to make the headings and links uppercase for contrast.
-I also used text zoom for most of the information text as I thought this was a fun feature to experiment with and it adds an extra level of interactivity which I believe gamers will subconsciously enjoy. It also helps with focussing on text.
+I also used text zoom for most of the information text as I thought this was a fun feature to experiment with and it adds an extra level of interactivity which I believe gamers will subconsciously enjoy. It also helps with focussing on text. I added a media query for disabling this animation if the user has specified they prefer reduced motion.
 
 Features
 
@@ -65,13 +67,13 @@ I chose to continue the theme of a large image across all three pages as I found
 
 Home
 
-The homepage provides background information on what the Elder Scrolls Online is and what's currently happening in the game, as well as telling the user about that week's upcoming events.
+The homepage provides background information on what the Elder Scrolls Online is and what's currently happening in the game, as well as telling the user about that week's upcoming events in the club.
 
 I chose to provide a link to an external page in the Chapter DLC section of the homepage as I felt it redundant to include all the information about the High Isles DLC in my own website as there are other sites which have already gone ahead and done that; and also that simply giving an overview of the Chapter's main features fit better with the overall content inclusion on my site. 
 
 Events
 
-The events section will be continously updated and details what is focussed on in each Twitch session. 
+The week events section will be continously updated and details what is focussed on in each Twitch session. 
 
 About Us
 
