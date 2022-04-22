@@ -36,6 +36,7 @@ h2 {
     font-size: 1.75rem;
 }
 
+/* h3 used for image text  */
 h3, h4 {
     text-transform: uppercase;
 }
@@ -113,7 +114,6 @@ header a {
 /* image texts */
 
 #image-text, #image-text-two, #image-text-three, #image-text-four {
-    font-family: inherit;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
