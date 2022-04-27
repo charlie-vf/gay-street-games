@@ -104,11 +104,11 @@ header a {
 }
 
 #hero-image-two {
-    background: url('../images/greymoor-one.jpeg') no-repeat center center;
+    background: url('../images/about-header.jpeg') no-repeat center center;
 }
 
 #hero-image-three {
-    background: url('../images/frostvault.webp') no-repeat center center;
+    background: url('../images/contact-header.webp') no-repeat center center;
 }
 
 /* image texts */
@@ -205,7 +205,7 @@ header a {
 }
 
 #center-circle-bg {
-    background: url('../images/the-prophet.jpeg');
+    background: url('../images/what-is-eso-image.jpeg');
     height: 100%;
     border-radius: 50%;
     background-size: 200%;
@@ -314,7 +314,7 @@ hr {
 /* events section */
 
 #events {
-    background: url('../images/orsinium.jpeg');
+    background: url('../images/events-bg.jpeg');
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -347,7 +347,7 @@ hr {
 /* meet the team section */
 
 #team {
-    background: url('../images/three-mages.jpg');
+    background: url('../images/meet-team-bg.jpg');
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -418,7 +418,7 @@ hr {
     grid-template-areas:
     ". te te cr cr ."
     ". . fu fu . .";
-    background: url('../images/greymoor-header-one.jpeg') no-repeat center center;
+    background: url('../images/what-doing-bg.jpeg') no-repeat center center;
     width: 100%;
     background-size: cover;
     overflow: hidden;
