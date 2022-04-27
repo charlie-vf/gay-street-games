@@ -300,6 +300,10 @@ hr {
     margin-right: 15%;
 }
 
+.event ul {
+    margin-left: 10px;
+}
+
 
 .dlc a {
     text-decoration: underline;
