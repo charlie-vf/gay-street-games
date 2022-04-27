@@ -36,7 +36,6 @@ h2 {
     font-size: 1.75rem;
 }
 
-/* h3 used for image text  */
 h3, h4 {
     text-transform: uppercase;
 }
@@ -83,13 +82,13 @@ header a {
     height: 600px;
     width: auto;
 
-    /* animates zoom on hero images */
+/* animates zoom on hero images */
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
-/* level of zoom for hero images */
+    /* level of zoom for hero images */
 @keyframes hero-zoom {
     from {
         transform: scale(1.11);
@@ -234,20 +233,16 @@ hr {
     clear: both;
 }
 
-/* hover animation for eso-explained and about sections */
-.grow p{
-    transition: 1s;
-    }
-    
-.grow p:hover{
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-    transition: 1s;
-    }
+/* hover animation for 'What is ESO' and 'What We're Doing sections */
+
+.grow p { transition: all 1s ease-in-out; }
+
+.grow p:hover { transform: scale(1.05); }
+
+    /* removes text hover animation where Reduced Motion is activated */
 
 @media (prefers-reduced-motion: reduce) {
-    .grow {
+    .grow p {
         animation: none;
     }
 }

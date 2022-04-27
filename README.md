@@ -1,5 +1,32 @@
 # Gay Street Gamers
 
+The live website can be found [here](https://charlie-vf.github.io/gay-street-games/).
+
+## Table of Contents
+
+- [Purpose](#purpose)
+- [User Stories](#user-stories)
+- [Design](#design)
+    - [Images](#images)
+    - [Colors](#colors)
+    - [Fonts](#fonts)
+- [Features](#features)
+    - [Nav Bar](#navigation-bar)
+    - [Hero Images](#hero-images)
+    - [Home Page](#home)
+        - [Events](#events)
+    - [About Us Page](#about-us)
+    - [Contact Us Page](#contact-us)
+    - [Footer](#footer)
+- [Technologies](#technologies)
+- [Testing](#testing)
+- [Validation & Accesibility](#validation--accessibility)
+- [Issues & Fixes](#issues--fixes)
+- [Deployment](#deployment)
+- [Future Instalments](#future-instalments)
+- [Credits](#credits)
+
+
 ## **Purpose**
 
 Gay Street Gamers is a site made by Elder Scrolls Online gamers for Elder Scrolls Online gamers. It serves the dual purpose of promoting the Twitch channel and other social medias of the team running the site, as well as providing a place for players to get information on the game, watch others play difficult content and ask questions to experienced players. 
@@ -33,7 +60,7 @@ All the images used on the site are related to the Elder Scrolls Online, and not
 For example, the center circle image on the homepage is The Prophet, a prominent character in the Main Story of the game; and the header image on the About Us page is of Fennorian, a character from 2020's DLC release - Greymoor - and a player character. 
 The color theme of the images matches that of the site as a whole, which is focussed around purples and blues.
 
-### Color
+### Colors
 
 The main colors used on the site are purples, with some blues, against a black page background.
 
@@ -74,6 +101,7 @@ I chose to continue the theme of a large image across all three pages as I found
 ### Home
 
 The homepage provides background information on what the Elder Scrolls Online is and what's currently happening in the game, as well as telling the user about that week's upcoming events in the club.
+The layout of the "What is Elder Scrolls Online?" section is inspired by the Love Running project as I really enjoyed this layout and the placement of a focus image between text. 
 
 ![What is ESO](assets/images/what-is-eso-ss.png)
 
@@ -81,7 +109,8 @@ I chose to provide a link to an external page in the Chapter DLC section of the 
 
 ### Events
 
-The week events section will be continously updated and details what is focussed on in each Twitch session. 
+The week events section will be continously updated and details what is focussed on in each Twitch session.
+Again, the layout of this section was inspired by the Love Running project as that is where I learnt how to position a series of divs horizontally across a single background image. 
 
 ![Twitch events](assets/images/events-ss.png)
 
@@ -120,26 +149,48 @@ The footer is the same across all three pages and features links to the teams' T
 - I tested the site on my own mobile and my friends' to double check responsiveness
 - I ensured the form submits properly and requires input in the relevant fields
 
-## **Validation**
+## **Validation & Accessibility**
 
 - Passes W3C HTML Validator with no errors returned
 - Passes W3C CSS Validator with no errors returned
-
-I used lighthouse in DevTools to further check the functionality of my site, and the only issue flagged was my headings hierarchy as the image text over the main page images are h3s, meaning there is a jump from the logo h1 before reaching the h2s defining each section of content on the page. 
+- I used the PowerMapper Web Accessibility tool to provide detailed information on any accessibility issues with my HTML and CSS, and fixed them accordingly
+    - I then used DevTools' Lighthouse feature to double check accessibility
 
 ## **Issues & Fixes**
 
 When viewed on mobile, the checkboxes on the form page overlapped their respective text. I fixed this by changing the
 margin size between checkbox and text for smaller screens.
 
+## **Deployment**
+This website was deployed using GitHub pages. The steps to deploy are as follows:
+    * In the GitHub repository, navigate to the settings tab.
+    * From the source section drop-down menu, select the Main Branch.
+    * After the main branch has been selected, the page provided the link to the completed website.
 
-## **Future Installments**
+This website was deployed using GitHub pages. The steps to achieve this are:
+- In the GitHub repository, navigate to Settings
+- Select Pages from the left-hand navigation bar
+- Select branch:main and folder:/root and hit Save
+- A link to the live website is provided
+
+
+## **Future Instalments**
 
 - The checkboxes on the form are not required to be checked in order for the form to be submitted, unlike the text fields, as HTML5 doesn't allow the instruction of at least one box needing to be checked amongst multiple.
 Once I've learnt the relevant material, I'll add this feature to the boxes.
 - I would like to add another page more dedicated to the Twitch side of the group, with video clips and
-links to individual channels, however time constraints and priority management did not allow me to do this. 
+links to individual channels, however time constraints and priority management did not allow me to do this.
 
-## ** Credits**
+## **Credits**
+
+### **Sites That Helped Me Out**
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas - Taught me how to use Grid Template Areas
+- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion - Taught me about Reduced Motion inclusion
+- https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ - Helped with text zoom on hover
+
+### **Image Sources**
+All images were taken from Google. I would have liked to use screenshots of the game which I took personally, however the quality of screenshots on PlayStation is incredibly poor. 
+
+### **Acknowledgements**
 
 A big thank you to my mentor, Brian Macharia, for motivating and educating me throughout the project. 
