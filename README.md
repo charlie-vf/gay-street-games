@@ -1,4 +1,4 @@
-# Gay Street Gamers
+# Gay Street Games
 
 The live website can be found [here](https://charlie-vf.github.io/gay-street-games/).
 <br>
