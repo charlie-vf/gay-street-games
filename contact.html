@@ -38,30 +38,30 @@
     </section>
 
 <!-- form, heading & aside text -->
-<section>
-    <div id="form-wrapper">
-        <div class="form-heading">
-            <h2 class="section-headings">Got any Questions?</h2>
-        <br>
-        </div>
-        <div class="questions-text">
-            <h3>The best place to see us in action is on Twitch! (links at bottom of page)</h3><br>
-            <ul>
-            <li>If you've got any questions, feel free to ask! ESO is a huge game with a massive amount of features
+    <section>
+        <div id="form-wrapper">
+            <div class="form-heading">
+                <h2 class="section-headings">Got any Questions?</h2>
+                <br>
+            </div>
+            <div class="questions-text">
+                <h3>The best place to see us in action is on Twitch! (links at bottom of page)</h3><br>
+                <ul>
+                    <li>If you've got any questions, feel free to ask! ESO is a huge game with a massive amount of features
                  - no question is a bad one!
-            </li>
-            <li>If you're on PlayStation EU, we're happy to play alongside you, including runs. If not, we'll offer
+                    </li>
+                    <li>If you're on PlayStation EU, we're happy to play alongside you, including runs. If not, we'll offer
                 all the advice we can!
-            </li>
-            <li>Dungeon/Trial = request help with runs, boss mechanics, etc.</li>
-            <li>General = anything else! </li>
-            <li>You can select multiple options for multiple questions if you like!</li>
-        </ul>
-        </div>
-        <div id="questions" class="form">
-            <form action="https://formdump.codeinstitute.net" method="POST">
-                <h4>Query type:</h4>
-                    <br>
+                    </li>
+                    <li>Dungeon/Trial = request help with runs, boss mechanics, etc.</li>
+                    <li>General = anything else! </li>
+                    <li>You can select multiple options for multiple questions if you like!</li>
+                </ul>
+            </div>
+            <div id="questions" class="form">
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <h4>Query type:</h4>
+                        <br>
                     <div class="queries">    
                         <label for="dungeon">Dungeon</label>
                         <input type="checkbox" id="dungeon" name="query-type" value="dungeon" class="checkbox-size">
@@ -75,15 +75,15 @@
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" class="ask-us" placeholder="Your Name" required>
                         <label for="email">Email:</label>
-                        <input type="text" id="email" name="email" class="ask-us" placeholder="Your Email" required>
+                        <input type="email" id="email" name="email" class="ask-us" placeholder="Your Email" required>
                         <label for="ask-question">Ask Us:</label>
                         <textarea id="ask-question" name="question" class="ask-us" placeholder="Ask us anything!" required></textarea>
                         <input type="submit" value="SUBMIT" class="submit-btn"/>
                     </div>
                 </form>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <!-- footer -->
     <footer>

@@ -2,6 +2,7 @@
 
 The live website can be found [here](https://charlie-vf.github.io/gay-street-games/).
 <br>
+
 *In this README, I use 'Elder Scrolls Online' and its acronym, 'ESO', interchangeably.*
 
 ## Table of Contents
@@ -192,8 +193,6 @@ To clone this site and run it locally on your device:
 - Copy the following text: git clone https://github.com/charlie-vf/gay-street-games.git
 - In your terminal, change to the local directory you want to clone to
 - Paste the copied text and hit enter
-
-
 
 ## **Future Instalments**
 
