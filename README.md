@@ -1,6 +1,8 @@
 # Gay Street Gamers
 
 The live website can be found [here](https://charlie-vf.github.io/gay-street-games/).
+<br>
+*In this README, I use 'Elder Scrolls Online' and its acronym, 'ESO', interchangeably.*
 
 ## Table of Contents
 
@@ -77,7 +79,7 @@ Blue:
 
 ### Fonts
 
-The fonts used in this website are Reggae One for the logo and main section headings, and Oxanium for lower tier headings and body text. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.
+The fonts used in this website are Reggae One for the logo, main section headings and the days in the events section; and Oxanium for the text over the images,lower tier headings and body text. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.
 I used text transform to make the headings and links uppercase for contrast.
 I also used text zoom for most of the information text as I thought this was a fun feature to experiment with and it adds an extra level of interactivity which I believe gamers will subconsciously enjoy. It also helps with focussing on text. I added a media query for disabling this animation if the user has specified they prefer reduced motion.
 
@@ -158,8 +160,8 @@ The footer is the same across all three pages and features links to the teams' T
 
 - Passes W3C HTML Validator with no errors returned
 - Passes W3C CSS Validator with no errors returned
-- I used the PowerMapper Web Accessibility tool to provide detailed information on any accessibility issues with my HTML and CSS, and fixed them accordingly
-    - I then used DevTools' Lighthouse feature to double check accessibility
+- I used the [PowerMapper](https://www.powermapper.com/) Web Accessibility tool to provide detailed information on any accessibility issues with my HTML and CSS, and fixed them accordingly
+    - I then used DevTools' Lighthouse feature to double check accessibility was 100%
 
 ## **Issues & Fixes**
 
@@ -185,9 +187,10 @@ links to individual channels, however time constraints and priority management d
 ## **Credits**
 
 ### **Sites That Helped Me Out**
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas - Taught me how to use Grid Template Areas
-- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion - Taught me about Reduced Motion inclusion
-- https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ - Helped with text zoom on hover
+- [This site](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas) taught me how to use Grid Template Areas
+- [This site](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) taught me about Reduced Motion inclusion
+- [This site](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/) helped with text zoom on hover
+- [This site](https://benevolentbowd.ca/games/esotu/eso-teases-upcoming-event-zeal-of-zenithar/#:~:text=The%20Anniversary%20event%20was%20not,or%20involve%20the%20guild%20traders.) provided information on the Zeal of Zenithar event
 
 ### **Image Sources**
 All images were taken from Google. I would have liked to use screenshots of the game which I took personally, however the quality of screenshots on PlayStation is incredibly poor. 

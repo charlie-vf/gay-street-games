@@ -28,11 +28,6 @@ h1, .section-headings {
     text-transform: uppercase;
 }
 
-.image-texts {
-    font-family: Oxanium;
-    font-size: 2.35rem;
-}
-
 
 h1 {
     font-size: 2.5rem;
@@ -168,6 +163,11 @@ header a {
     width: 175px;
     height: 100px;
 }
+
+.image-texts {
+    font-family: Oxanium;
+    font-size: 2.35rem;
+}
 /* about eso wheel */
 
 #eso-explained {
@@ -263,8 +263,8 @@ hr {
     grid-auto-rows: minmax(100px, auto);
     column-gap: 5rem;
     grid-template-areas:
-    "hd hd hd hd hd hd"
-    "dl dl dl ev ev ev";
+    'hd hd hd hd hd hd'
+    'dl dl dl ev ev ev';
 }
 
 #current-game-wrapper h3 {
@@ -302,7 +302,7 @@ hr {
 }
 
 .event ul {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
@@ -417,8 +417,8 @@ hr {
     column-gap: 8rem;
     row-gap: 3rem;
     grid-template-areas:
-    ". te te cr cr ."
-    ". . fu fu . .";
+    '. te te cr cr .'
+    '. . fu fu . .';
     background: url('../images/what-doing-bg.jpeg') no-repeat center center;
     width: 100%;
     background-size: cover;
@@ -459,8 +459,8 @@ hr {
     grid-auto-rows: minmax(100px, auto);
     column-gap: 3rem;
     grid-template-areas:
-    "fo-hd fo-hd fo-hd fo-hd fo-hd fo-hd"
-    "qu qu fo fo fo fo";
+    'fo-hd fo-hd fo-hd fo-hd fo-hd fo-hd'
+    'qu qu fo fo fo fo';
     }
 
     /* left text div */
@@ -526,7 +526,7 @@ form > h4 {
 input[type=checkbox] {
     vertical-align: middle;
     position: relative;
-    margin-left: -55px;
+    margin-left: -7%;
 }
 
 label {
@@ -661,9 +661,9 @@ footer {
         column-gap: 5rem;
         row-gap: 2rem;
         grid-template-areas:
-        "hd hd hd hd hd hd"
-        "dl dl dl dl dl dl"
-        "ev ev ev ev ev ev";
+        'hd hd hd hd hd hd'
+        'dl dl dl dl dl dl'
+        'ev ev ev ev ev ev';
     }
 
     .events {
@@ -708,9 +708,9 @@ footer {
         column-gap: 5rem;
         row-gap: 2rem;
         grid-template-areas:
-        "te te te te te te"
-        "cr cr cr cr cr cr"
-        "fu fu fu fu fu fu";
+        'te te te te te te'
+        'cr cr cr cr cr cr'
+        'fu fu fu fu fu fu';
     }
 
     .about-content {
@@ -733,9 +733,9 @@ footer {
 
     #form-wrapper {
         grid-template-areas: 
-        ". fo-hd fo-hd fo-hd fo-hd ."
-        "qu qu qu qu qu qu"
-        "fo fo fo fo fo fo";
+        '. fo-hd fo-hd fo-hd fo-hd .'
+        'qu qu qu qu qu qu'
+        'fo fo fo fo fo fo';
     }
 
     #questions {
