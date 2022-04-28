@@ -89,21 +89,21 @@ I also used text zoom for most of the information text as I thought this was a f
 
 The fully responsive navigation bar features a logo which links back to the homepage, as well as links to the home, about us and contact us pages. It is the same on each page and includes a background highlight on hover and active underline features so its clear to the user where they're going and where they are. There is no need to use the brower's back button to navigate the website.
 
-![Nav bar](assets/images/nav-bar-ss.png)
+![Nav bar](docs/nav-bar-ss.png)
 
 ### Hero Images
 
 Each page features a full-width image from the Elder Scrolls Online with image text over it providing a short description of what the page is about.
 I chose to continue the theme of a large image across all three pages as I found it satisfying when switching between pages to not have a sudden change in page layout. On full screen displays, the image leaves space at the bottom allowing the first of that page's headings to be visible, encouraging the user to scroll down to see the content. 
 
-![Hero image on home page](assets/images/hero-image-ss.png)
+![Hero image on home page](docs/hero-image-ss.png)
 
 ### Home
 
 The homepage provides background information on what the Elder Scrolls Online is and what's currently happening in the game, as well as telling the user about that week's upcoming events in the club.
 The layout of the "What is Elder Scrolls Online?" section is inspired by the Love Running project as I really enjoyed this layout and the placement of a focus image between text. 
 
-![What is ESO](assets/images/what-is-eso-ss.png)
+![What is ESO](docs/what-is-eso-ss.png)
 
 I chose to provide a link to an external page in the Chapter DLC section of the homepage as I felt it redundant to include all the information about the High Isles DLC in my own website as there are other sites which have already gone ahead and done that; and also that simply giving an overview of the Chapter's main features fit better with the overall content inclusion on my site. 
 
@@ -112,42 +112,47 @@ I chose to provide a link to an external page in the Chapter DLC section of the 
 The week events section will be continously updated and details what is focussed on in each Twitch session.
 Again, the layout of this section was inspired by the Love Running project as that is where I learnt how to position a series of divs horizontally across a single background image. 
 
-![Twitch events](assets/images/events-ss.png)
+![Twitch events](docs/events-ss.png)
 
 ### About Us
 
 The about us page introduces the user to the team behind the site and why they've chosen to come together to make a collaborative place for players both new and experienced.
 
-![Meet the team](assets/images/meet-the-team-ss.png)
+![Meet the team](docs/meet-the-team-ss.png)
 
 ### Contact Us
 
 The contact us page provides a form for users to send any questions they may have to the team. The form has three checkbox options to help categorise the query.
 The page features an aside, explaining to users what sort of things they can expect help with and what is dependent on the platform they game on. 
 
-![Form](assets/images/form-ss.png)
+![Form](docs/form-ss.png)
 
 ### Footer
 
 The footer is the same across all three pages and features links to the teams' Twitch, Discord, Twitter, YouTube and Instagram pages.
 
-![Footer](assets/images/footer-ss.png)
+![Footer](docs/footer-ss.png)
 
 
 ## **Technologies**
 
 - HTML: The main language of the project for providing structure and content
 - CSS: Adds custom styling and personality to the page
-- Google Fonts: Used to import the "Reggae One" and "Oxanium" fonts
-- TinyPNG: Used to compress the file sizes of the images on the site
-- Font Awesome: Supplied the icons used in the Footer for social media links
-- Am I Responsive?: Generated website mockup across devices
+- [Google Fonts](https://fonts.google.com/): Used to import the "Reggae One" and "Oxanium" fonts
+- [TinyPNG](https://tinypng.com/): Used to compress the file sizes of the images on the site
+- [Font Awesome](https://fontawesome.com/): Supplied the icons used in the Footer for social media links
+- [Am I Responsive?](http://ami.responsivedesign.is/): Generated website mockup across devices
+
+### **Website Mockup**
+
+![Mockup](docs/am-i-responsive-mockup.png)
 
 ## **Testing**
 
 - I ensured the site works across all screen sizes, from widescreen to mobile, using DevTools.
 - I tested the site on my own mobile and my friends' to double check responsiveness
 - I ensured the form submits properly and requires input in the relevant fields
+- I ensured all links work correctly and open in new tabs
 
 ## **Validation & Accessibility**
 
@@ -162,10 +167,6 @@ When viewed on mobile, the checkboxes on the form page overlapped their respecti
 margin size between checkbox and text for smaller screens.
 
 ## **Deployment**
-This website was deployed using GitHub pages. The steps to deploy are as follows:
-    * In the GitHub repository, navigate to the settings tab.
-    * From the source section drop-down menu, select the Main Branch.
-    * After the main branch has been selected, the page provided the link to the completed website.
 
 This website was deployed using GitHub pages. The steps to achieve this are:
 - In the GitHub repository, navigate to Settings
