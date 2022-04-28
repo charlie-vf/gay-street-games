@@ -14,7 +14,7 @@ body {
     font-size: 16px;
 }
 
-/* headings & logo */
+/* headings, logo & nav bar */
 
 #gay {
     text-align: center;
@@ -27,7 +27,6 @@ h1, .section-headings {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
 
 h1 {
     font-size: 2.5rem;
@@ -168,6 +167,7 @@ header a {
     font-family: Oxanium;
     font-size: 2.35rem;
 }
+
 /* about eso wheel */
 
 #eso-explained {
@@ -239,11 +239,15 @@ hr {
     clear: both;
 }
 
-/* hover animation for 'What is ESO' and 'What We're Doing sections */
+/* hover animation for 'What is ESO' and 'What We're Doing' sections */
 
-.grow p { transition: all 1s ease-in-out; }
+.grow p { 
+    transition: all 1s ease-in-out; 
+}
 
-.grow p:hover { transform: scale(1.05); }
+.grow p:hover { 
+    transform: scale(1.05); 
+}
 
     /* removes text hover animation where Reduced Motion is activated */
 
@@ -276,19 +280,18 @@ hr {
     margin: 8px 0;
 }
 
-.current-game-heading {
-    grid-area: hd;
-    text-align: center;
-    margin: 20px 0;
-}
-
-.dlc, .event {
+.dlc, .game-event {
     max-width: 80%;
-    grid-area: dl;
     padding: 8px;
     border: 1px solid #3b0a88;
     border-radius: 10px;
     line-height: 20px;
+}
+
+.current-game-heading {
+    grid-area: hd;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .dlc {
@@ -296,12 +299,12 @@ hr {
     margin-left: 15%;
 }
 
-.event {
+.game-event {
     grid-area: ev;
     margin-right: 15%;
 }
 
-.event ul {
+.game-event ul {
     margin-left: 15px;
 }
 
@@ -461,7 +464,14 @@ hr {
     grid-template-areas:
     'fo-hd fo-hd fo-hd fo-hd fo-hd fo-hd'
     'qu qu fo fo fo fo';
-    }
+}
+
+.form-heading {
+    grid-area: fo-hd;
+    margin-top: 15px;
+    text-align: center;
+    grid-column: span 6 / -1;
+}
 
     /* left text div */
 
@@ -476,12 +486,6 @@ hr {
     margin: 0 auto;
 }
 
-.questions-heading {
-    grid-area: fo-hd;
-    margin-top: 15px;
-    text-align: center;
-}
-
 .questions-text {
     grid-area: qu;
     padding-left: 90px;
@@ -490,11 +494,12 @@ hr {
     align-self: center;
 }
 
-    /* form */
-
-.form-heading {
-    grid-column: span 6 / -1;
+.questions-text li {
+    margin: 10px 0 ;
+    list-style: none;
 }
+
+    /* form */
 
 .form {
     grid-area: fo;
@@ -502,11 +507,6 @@ hr {
 
 form > h4 {
     font-size: 1.1rem;
-}
-
-.questions-text li {
-    margin: 10px 0 ;
-    list-style: none;
 }
 
 .queries {
@@ -533,16 +533,16 @@ label {
     text-transform: uppercase;
 }
 
+.info {
+    margin-bottom: 10px;
+}
+
 .info > label {
     display: inline-block;
     text-align: center;
     width: 110px;
     margin-top: 20px;
     font-size: 1.1rem;
-}
-
-.info {
-    margin-bottom: 10px;
 }
 
 .ask-us {
@@ -644,10 +644,6 @@ footer {
         padding: 0 20px;
     }
 
-    .left-eso-content, .right-eso-content {
-        line-height: 1.5rem;
-    }
-
     #center-explained {
         display: none;
     }
@@ -666,10 +662,6 @@ footer {
         'ev ev ev ev ev ev';
     }
 
-    .events {
-        color: #3b0a88;
-    }
-
     #events h2 {
         color: #3b0a88;
     }
@@ -678,11 +670,6 @@ footer {
         width: 100%;
         clear: both;
         height: 150px;
-    }
-
-    .dlc, .event {
-        margin: 0 auto;
-        line-height: 1.5rem;
     }
 
     #team div {
@@ -716,6 +703,21 @@ footer {
     .about-content {
         width: 25%;
     }
+
+    .left-eso-content, .right-eso-content {
+        line-height: 1.5rem;
+    }
+
+    .events {
+        color: #3b0a88;
+    }
+
+    .dlc, .game-event {
+        margin: 0 auto;
+        line-height: 1.5rem;
+    }
+
+
 
 }
 
@@ -754,6 +756,11 @@ footer {
     input[type=checkbox] {
         margin-left: -4%;
         display: inline-block;
+    }
+
+    .grow p, .grow p:hover {
+        transform: none;
+        transition: none;
     }
 
     .queries > label {

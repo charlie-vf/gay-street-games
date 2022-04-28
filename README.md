@@ -42,17 +42,17 @@ Gay Street Gamers is a site made by Elder Scrolls Online gamers for Elder Scroll
 - As a First Time Visitor, I want to understand what the website is for and why
 - As a First Time Visitor, I want to easily navigate through the different pages on the site to find the content I want.
 - As a First Time Visitor, I want to be able to find information on ESO as a game
-- As a First Time Visitor, I want to easily see what events are running during the week
 
 ### Returning Visitor goals
 
+- As a Returning Visitor, I want to easily see what events the team are running during the week
 - As a Returning Visitor, I want to learn more about the team behind the site
 - As a Returning Visitor, I want to be able to contact the team with queries and requests for help
 
 ### Frequent Visitor goals
 
 - As a Frequent Visitor, I want to see if there are any changes to the weekly events schedule
-- As a Frequent Visitor, I want to see if there is any new content in the game
+- As a Frequent Visitor, I want to see if there is any new content in the game, including game events
 
 ## Design
 
@@ -79,9 +79,9 @@ Blue:
 
 ### Fonts
 
-The fonts used in this website are Reggae One for the logo, main section headings and the days in the events section; and Oxanium for the text over the images,lower tier headings and body text. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.
-I used text transform to make the headings and links uppercase for contrast.
-I also used text zoom for most of the information text as I thought this was a fun feature to experiment with and it adds an extra level of interactivity which I believe gamers will subconsciously enjoy. It also helps with focussing on text. I added a media query for disabling this animation if the user has specified they prefer reduced motion.
+The fonts used in this website are Reggae One for the logo, main section headings and the days in the events section; and Oxanium for the text over the images,lower tier headings and body text. I experimented with some fonts which were close to what is used in ESO and other Elder Scrolls games, but found they impacted the readability of the text on the website, and thus chose to focus on imagery to give users a taste of what ESO is like, visually.<br>
+I used text transform to make the headings and links uppercase for contrast.<br>
+I also used text zoom for most of the information text (only on screens of width 921px+) as I thought this was a fun feature to experiment with and it adds an extra level of interactivity. It also helps with focussing on text. <br>I added a media query for disabling this animation if the user has specified they prefer reduced motion.
 
 ## **Features**
 
@@ -89,20 +89,22 @@ I also used text zoom for most of the information text as I thought this was a f
 
 ### Navigation Bar
 
-The fully responsive navigation bar features a logo which links back to the homepage, as well as links to the home, about us and contact us pages. It is the same on each page and includes a background highlight on hover and active underline features so its clear to the user where they're going and where they are. There is no need to use the brower's back button to navigate the website.
+The fully responsive navigation bar features a logo which links back to the homepage, as well as links to the Home, About Us and Contact Us pages. It is the same on each page and includes a background highlight on hover and active underline features so its clear to the user where they're going and where they are. There is no need to use the brower's back button to navigate the website. <br>
+This fulfills the User Story: "As a First Time Visitor, I want to easily navigate through the different pages on the site to find the content I want."
 
 ![Nav bar](docs/nav-bar-ss.png)
 
 ### Hero Images
 
-Each page features a full-width image from the Elder Scrolls Online with image text over it providing a short description of what the page is about.
+Each page features a full-width image from the Elder Scrolls Online with image text over it providing a short description of what the page is about.<br>
 I chose to continue the theme of a large image across all three pages as I found it satisfying when switching between pages to not have a sudden change in page layout. On full screen displays, the image leaves space at the bottom allowing the first of that page's headings to be visible, encouraging the user to scroll down to see the content. 
 
 ![Hero image on home page](docs/hero-image-ss.png)
 
 ### Home
 
-The homepage provides background information on what the Elder Scrolls Online is and what's currently happening in the game, as well as telling the user about that week's upcoming events in the club.
+The homepage provides background information on what the Elder Scrolls Online is and what's currently happening in the game, as well as telling the user about that week's upcoming events in the club.<br>
+This fulfills the User Stories: "As a First Time Visitor, I want to be able to find information on ESO as a game" and "As a Frequent Visitor, I want to see if there is any new content in the game, including game events"<br>
 The layout of the "What is Elder Scrolls Online?" section is inspired by the Love Running project as I really enjoyed this layout and the placement of a focus image between text. 
 
 ![What is ESO](docs/what-is-eso-ss.png)
@@ -112,20 +114,23 @@ I chose to provide a link to an external page in the Chapter DLC section of the 
 ### Events
 
 The week events section will be continously updated and details what is focussed on in each Twitch session.
-Again, the layout of this section was inspired by the Love Running project as that is where I learnt how to position a series of divs horizontally across a single background image. 
+Again, the layout of this section was inspired by the Love Running project as that is where I learnt how to position a series of divs horizontally across a single background image. <br>
+This fulfills the User Stories: "As a Returning Visitor, I want to easily see what events the team are running during the week" and "As a Frequent Visitor, I want to see if there are any changes to the weekly events schedule"
 
 ![Twitch events](docs/events-ss.png)
 
 ### About Us
 
-The about us page introduces the user to the team behind the site and why they've chosen to come together to make a collaborative place for players both new and experienced.
+The about us page introduces the user to the team behind the site and why they've chosen to come together to make a collaborative place for players both new and experienced.<br>
+This fulfills the User Stories: "As a Returning Visitor, I want to learn more about the team behind the site" and "As a First Time Visitor, I want to understand what the website is for and why"
 
 ![Meet the team](docs/meet-the-team-ss.png)
 
 ### Contact Us
 
-The contact us page provides a form for users to send any questions they may have to the team. The form has three checkbox options to help categorise the query.
-The page features an aside, explaining to users what sort of things they can expect help with and what is dependent on the platform they game on. 
+The contact us page provides a form for users to send any questions they may have to the team. The form has three checkbox options to help categorise the query.<br>
+The page features an aside, explaining to users what sort of things they can expect help with and what is dependent on the platform they game on.<br>
+This fulfills the User Story: "As a Returning Visitor, I want to be able to contact the team with queries and requests for help"
 
 ![Form](docs/form-ss.png)
 
@@ -151,9 +156,12 @@ The footer is the same across all three pages and features links to the teams' T
 
 ## **Testing**
 
-- I ensured the site works across all screen sizes, from widescreen to mobile, using DevTools.
-- I tested the site on my own mobile and my friends' to double check responsiveness
+- I ensured the site works across all screen sizes, from widescreen to small mobile, using DevTools.
+    - I tested the site on my own mobile and my friends' to double check responsiveness
+- I ensured the site works across multiple browsers, including Chrome, Firefox and Safari
+    - My Macbook already had Chrome and Safari, so I downloaded Firefox and pasted the website link into all three
 - I ensured the form submits properly and requires input in the relevant fields
+    - Inputted dummy text, submitted and was taken to the Code Institute's form submission success page
 - I ensured all links work correctly and open in new tabs
 
 ## **Validation & Accessibility**
@@ -176,6 +184,16 @@ This website was deployed using GitHub pages. The steps to achieve this are:
 - Select branch:main and folder:/root and hit Save
 - A link to the live website is provided
 
+The live website will update following any new commits and pushes to the main branch.
+<br>
+
+To clone this site and run it locally on your device:
+
+- Copy the following text: git clone https://github.com/charlie-vf/gay-street-games.git
+- In your terminal, change to the local directory you want to clone to
+- Paste the copied text and hit enter
+
+
 
 ## **Future Instalments**
 
@@ -193,7 +211,15 @@ links to individual channels, however time constraints and priority management d
 - [This site](https://benevolentbowd.ca/games/esotu/eso-teases-upcoming-event-zeal-of-zenithar/#:~:text=The%20Anniversary%20event%20was%20not,or%20involve%20the%20guild%20traders.) provided information on the Zeal of Zenithar event
 
 ### **Image Sources**
-All images were taken from Google. I would have liked to use screenshots of the game which I took personally, however the quality of screenshots on PlayStation is incredibly poor. 
+All images were taken from online. I would have liked to use screenshots of the game which I took personally, however the quality of screenshots on PlayStation is incredibly poor.
+
+- [Home Page Header Image](http://www.elderscrollsguides.com/wallpapers/aetherian-archive/)
+- [What Is ESO Image](https://wall.alphacoders.com/big.php?i=675137)
+- [Events Background](https://wallpaper.dog/large/5548130.jpg)
+- [About Us Page Header Image](https://www.gamestar.de/galerien/the_elder_scrolls_online_greymoor,134670.html)
+- [Meet The Team Background](https://www.geekalerts.com/the-elder-scrolls-online-summerset-released-for-ps4-xbox-one/)
+- [What We're Doing Background](https://hdqwalls.com/wallpaper/2560x1440/the-elder-scrolls-online-greymoor)
+- [Contact Us Page Header Image](https://www.vgr.com/wp-content/uploads/2019/02/Elder-Scrolls-Online-Frostvault-Dungeon-DLC-768x432.jpg)
 
 ### **Acknowledgements**
 
