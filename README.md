@@ -32,7 +32,7 @@ The live website can be found [here](https://charlie-vf.github.io/gay-street-gam
 
 ## **Purpose**
 
-Gay Street Gamers is a site made by Elder Scrolls Online gamers for Elder Scrolls Online gamers. It serves the dual purpose of promoting the Twitch channel and other social medias of the team running the site, as well as providing a place for players to get information on the game, watch others play difficult content and ask questions to experienced players. 
+Gay Street Games is a site made by Elder Scrolls Online gamers for Elder Scrolls Online gamers. It serves the dual purpose of promoting the Twitch channel and other social medias of the team running the site, as well as providing a place for players to get information on the game, watch others play difficult content and ask questions to experienced players. 
 
 ## **User Design and Experience**
 
